@@ -1,4 +1,4 @@
-FROM Alpine:v3.16
+FROM alpine:v3.16
 
 RUN apk upgrade -U
 RUN apk add curl
